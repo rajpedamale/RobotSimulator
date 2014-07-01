@@ -1,0 +1,34 @@
+north
+south
+report
+right
+place
+place 1,1,north
+report
+Output: 1,1,NORTH
+move
+report
+Output: 1,2,NORTH
+place 3,3,west
+report
+Output: 3,3,WEST
+move
+report
+Output: 2,3,WEST
+right
+right
+move
+report
+Output: 3,3,EAST
+
+
+
+
+report
+Output: 3,3,EAST
+move
+report
+Output: 4,3,EAST
+move
+report
+Output: 4,3,EAST
